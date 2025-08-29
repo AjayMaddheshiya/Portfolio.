@@ -2,12 +2,7 @@
 
 Welcome to the repository for my personal portfolio website. This project showcases my skills, experience, and projects as a Full-Stack Developer with a passion for creating innovative web solutions using the MERN stack and AI technologies.
 
-**[Live Demo](https://your-portfolio-url.vercel.app/)** `// TODO: Replace with your live Vercel URL`
-
----
-
-![Portfolio Screenshot](https://i.imgur.com/your-screenshot-code.png)
-`// TODO: Add a screenshot of your live portfolio here`
+**[Live Demo](https://portfolio-ajaysahu.vercel.app/)** 
 
 ***
 
