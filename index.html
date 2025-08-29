@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ajay Maddheshiya - Full-Stack Developer Portfolio</title>
+    <meta name="description" content="Full-Stack Developer specializing in MERN stack and AI integration. View my portfolio, projects, and experience.">
+    <meta name="keywords" content="Full-Stack Developer, MERN Stack, React, Node.js, MongoDB, JavaScript, AI, Portfolio">
+    <meta name="author" content="Ajay Maddheshiya">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="Ajay Maddheshiya - Full-Stack Developer">
+    <meta property="og:description" content="Full-Stack Developer specializing in MERN stack and AI integration.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Ajay Maddheshiya - Full-Stack Developer">
+    <meta property="twitter:description" content="Full-Stack Developer specializing in MERN stack and AI integration.">
+    
+    <!-- Preconnect to external domains for better performance -->
+    <link rel="preconnect" href="https://images.pexels.com">
+    
+    <style>
+      /* Smooth scrolling for the entire page */
+      html {
+        scroll-behavior: smooth;
+      }
+      
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: linear-gradient(45deg, #3b82f6, #8b5cf6);
+        border-radius: 10px;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(45deg, #2563eb, #7c3aed);
+      }
+      
+      /* Dark mode scrollbar */
+      .dark ::-webkit-scrollbar-track {
+        background: #374151;
+      }
+      
+      /* Loading animation */
+      .loading {
+        opacity: 0;
+        animation: fadeInUp 0.6s ease-out forwards;
+      }
+      
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
